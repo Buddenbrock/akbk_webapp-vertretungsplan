@@ -123,6 +123,9 @@ td {
     border-width: 3px;
     width: 100%;
   }
+  th {
+    padding: 15px 5px;
+  }
   td {
     padding: 5px;
   }
@@ -164,6 +167,9 @@ select {
     border-radius: 0;
     color: #fff;
     font-size: 30px;
+  }
+  select {
+    height: 50px;
   }
   option {
     font-size: 20px;
@@ -259,7 +265,7 @@ table + font {
   color: #fff;
   float: left;
   font-size: 12px;
-  height: 20px;
+  height: 10px;
   margin-bottom: 15px;
   padding-top: 5px;
   width: 10%;
