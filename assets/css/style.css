@@ -1,0 +1,303 @@
+/* default - overwrite */
+a,
+header a {
+  color: #9a9997;
+}
+button {
+  background-color: #9a9997;
+}
+hr {
+  border-color: #9a9997 !important;
+}
+svg path {
+  fill: #9a9997;
+}
+
+/* global */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-text-size-adjust: none;
+}
+
+/*section*/
+footer,
+header,
+main {
+  font-family: sans-serif;
+  margin: auto;
+  width: 100%;
+}
+
+  header {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #bdbdbd;
+    height: 95px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    z-index: 2;
+  }
+    header a {
+      font-size: 25px;
+    }
+    .button-pre {
+      float: left;
+    }
+    .button-next {
+      float: right;
+    }
+
+      header a img {
+        max-height: 80px;
+        min-height: 55px;
+        margin-top: 5px;
+      }
+    header span {
+      font-size: 24px;
+      position: relative;
+      top: -18px;
+      width: 10%;
+    }
+    header .logo {
+      height: 45px;
+      margin: 0 15px;
+      max-width: 80%;
+      min-height: 45px;
+      width: 35%;
+    }
+
+  main {
+    height: auto;
+    margin: 110px auto 170px auto;
+    width: 95%;
+  }
+
+  footer {
+    background-color: #f5f5f5;
+    bottom: 0;
+    position: fixed;
+  }
+    footer a {
+      outline: 1px solid #bdbdbd;
+      color: #333;
+      float: left;
+      text-align:center;
+      padding-bottom: 20px;
+      padding-top: 10px;
+      width: 20%;
+    }
+      footer a:last-child {
+        border-right: none;
+      }
+    footer img {
+      max-height: 80px;
+      min-height: 55px;
+    }
+    footer nav span {
+      display: block;
+    }
+
+    svg {
+      width: 50px;
+      height: 50px;
+    }
+      svg .white,
+      svg polygon {
+        fill: #fff;
+      }
+
+
+/* table */
+table,
+td {
+  border: 1px solid #333;
+  border-collapse: collapse;
+  text-align: center;
+}
+  table {
+    border-width: 3px;
+    width: 100%;
+  }
+  td {
+    padding: 5px;
+  }
+
+  table table,
+  table table td {
+    border: none;
+  }
+
+  td:last-child{
+    display: none;
+  }
+   table table td:last-child,
+   .lesson td:last-child {
+    display: table-cell !important;
+   }
+
+/* form */
+form{
+  padding: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+button,
+select {
+  cursor: pointer;
+  font-size: 20px;
+  height: 100px;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+}
+  button {
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    font-size: 30px;
+  }
+  option {
+    font-size: 20px;
+    line-height: 28px;
+  }
+    option.hog_band,
+    option.koe_band,
+    option.ahr_band,
+    option.gol_band,
+    option.nmg_band,
+    option.dmt_band,
+    option.ftr_band,
+    option.fog_band,
+    option.dbf_band,
+    option.bgb_band,
+    option.akbk_band {
+      font-size: 20px !important;
+      padding: 20px 5px !important;
+    }
+
+/* list */
+ul {
+  list-style: none;
+  padding: 15px;
+}
+
+/* tags */
+h1,
+h2,
+p {
+  padding: 15px;
+}
+
+a,
+p,
+span {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 38px;
+}
+
+h2 {
+  padding-bottom: 0px;
+}
+
+hr {
+  width: 100%;
+  border: 0;
+  border-top: 2px solid;
+  margin: 20px 0;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+/* else */
+font[color='#0000FF'],
+font[color='#0000FF'] + font,
+font[color='#0000FF'] + font + br,
+center + p {
+  display: none;
+}
+
+table + font {
+  position: relative;
+  top: 15px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+
+/* topbar */
+.hog_band,
+.koe_band,
+.ahr_band,
+.gol_band,
+.nmg_band,
+.dmt_band,
+.ftr_band,
+.fog_band,
+.dbf_band,
+.bgb_band,
+.akbk_band {
+  color: #fff;
+  float: left;
+  font-size: 12px;
+  height: 20px;
+  margin-bottom: 15px;
+  padding-top: 5px;
+  width: 10%;
+}
+
+.hog_band { background-color: #8b2738; }
+.koe_band { background-color: #dd0420; }
+.ahr_band { background-color: #c7007f; }
+.gol_band { background-color: #996699; }
+.nmg_band { background-color: #5b2282; }
+.dmt_band { background-color: #006eb7; }
+.ftr_band { background-color: #10bae7; }
+.fog_band { background-color: #00847d; }
+.dbf_band { background-color: #76b828; }
+.bgb_band { background-color: #00a983; }
+.akbk_band { background-color: #666; }
+
+
+/* media query */
+@media screen and (max-width: 790px) {
+  footer nav span {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 462px) {
+  header span {
+    display: none;
+  }
+}
+
+@media print {
+  footer,
+  header {
+    display: none;
+  }
+
+  main {
+    margin: 0 auto;
+  }
+}
