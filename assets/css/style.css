@@ -77,10 +77,14 @@ main {
     width: 95%;
   }
     .col-50 {
-      width: 50%;
       float: left;
       margin-bottom: 25px;
+      margin-top: -40px;
+      width: 50%;
     }
+      .col-50:first-child {
+        margin-top: -40px;
+      }
 
   footer {
     background-color: #f5f5f5;
@@ -339,11 +343,12 @@ table + font {
 
 @media screen and (max-width: 615px) {
   .col-50 {
-    margin-bottom: 0;
+    margin-bottom: 30px;
     width: 100%;
   }
-    .col-50:last-child{
-      margin-bottom: 25px;
+    .col-50:first-child{
+      margin-top: 0;
+      margin-bottom: 0;
     }
 }
 
