@@ -2,9 +2,9 @@
   "version": "v1.8",
   "name": "AKBK Stundenplan APP",
   "short_name": "AKBK App",
-  "description": "Mobile Vertretungsplan Schnittstelle des AKBK Infopoint",
+  "description": "Mobile Schnittstelle des AKBK Infopoint Vertretungsplan",
   "lang": "de",
-	
+
   "start_url": "../../index.php",
 
   "display": "fullscreen",
