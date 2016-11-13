@@ -9,7 +9,6 @@
 <!doctype html>
 <html>
   <head>
-    <!--<meta charset="utf-8" />-->
     <meta name="Robots" content="noindex, nofollow" />
     <meta name="viewport" content="width=1024, user-scalable=no" />
     <title>AKBK Stundenplan APP</title>

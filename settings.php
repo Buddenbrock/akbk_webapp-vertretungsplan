@@ -3,6 +3,8 @@
   $import_timetable_config = true;
   $i = 0;
 
+  header("Content-Type: text/html; charset=utf-8");
+
   include_once('assets/includes/config.php');
   include_once('assets/includes/header.php');
 ?>
