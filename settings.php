@@ -4,7 +4,6 @@
   $i = 0;
 
   include_once('assets/includes/config.php');
-  $pagetitle = $navtitle_settings;
   include_once('assets/includes/header.php');
 ?>
 

@@ -3,9 +3,6 @@
   $import_timetable_config = false;
 
   include_once('assets/includes/config.php');
-
-  $pagetitle = $navtitle_impressum;
-
   include_once('assets/includes/header.php');
 ?>
 

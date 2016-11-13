@@ -9,10 +9,10 @@
 <!doctype html>
 <html>
   <head>
-    <meta charset="utf-8" />
+    <!--<meta charset="utf-8" />-->
     <meta name="Robots" content="noindex, nofollow" />
     <meta name="viewport" content="width=1024, user-scalable=no" />
-    <title>AKBK Stundenplan APP <?=($color)?></title>
+    <title>AKBK Stundenplan APP</title>
     <meta name="application-name" content="AKBK Stundenplan APP">
     <meta name="apple-mobile-web-app-title" content="AKBK Stundenplan APP">
 

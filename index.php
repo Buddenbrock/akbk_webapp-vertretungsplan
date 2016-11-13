@@ -19,7 +19,6 @@
 
 // Import der Config-Data
   include_once('assets/includes/config.php');
-  $pagetitle = $navtitle_timetable;
 
 // Pläne auslesen
   $url_timetable = "http://www.akbk-infopoint.de/Klassenplan/" . $kw_now . "/c/c" . $class_id . ".htm";

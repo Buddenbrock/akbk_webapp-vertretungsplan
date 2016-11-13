@@ -2,17 +2,6 @@
 $year = date('Y');
 $version = "v1.2";
 
-// Navigation Configuration
-  $navtitle_timetable = "Stundenplan";
-  $navtitle_settings = "Einstellungen";
-  $navtitle_print = "Drucken";
-  $navtitle_lesson = "Stundenzeit";
-  $navtitle_help = "Hilfe";
-  $navtitle_impressum = "Impressum";
-  $submit_text = "Speichern";
-
-
-
 // Class Configuration
   if($import_timetable_config) {
     include_once('assets/includes/timetable_config.php');
