@@ -1,11 +1,10 @@
 ﻿<html>
   <head>
     <style>
-    * {
-      visibility: hidden;
-      background-color: #f5f5f5;
-    }
-
+      * {
+        visibility: hidden;
+        background-color: #f5f5f5;
+      }
     </style>
   </head>
   <body>
