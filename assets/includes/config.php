@@ -1,6 +1,6 @@
 <?php
 $year = date('Y');
-$version = "v1.2";
+$version = "v1.9";
 
 // Class Configuration
   if($import_timetable_config) {
