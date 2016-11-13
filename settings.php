@@ -9,8 +9,9 @@
 ?>
 
 <main>
-  <h1><?= $navtitle_settings ?></h1>
+  <h1>Einstellungen</h1>
 
+  <!-- Konfiguration der Klasse -->
   <form action="set-cookie.php">
     <label for="class_id">Bitte wähle deine Klasse</label>
     <select name="class_id">
@@ -20,7 +21,10 @@
     </select>
     <button type="submit">Speichern</button>
   </form>
-  <hr>
+
+<hr>
+
+  <!-- Konfiguration der Farbe -->
   <form action="set-cookie.php">
     <label for="color_id">Bitte wähle deine Primärfarbe</label>
     <div class="col-50">
