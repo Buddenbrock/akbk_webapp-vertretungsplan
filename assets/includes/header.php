@@ -52,6 +52,10 @@
       svg path {
         fill: <?=($color)?>;
       }
+
+      input[type="radio"]:checked + label {
+        background-color: <?=($color)?>; 
+      }
     </style>
 
   </head>
