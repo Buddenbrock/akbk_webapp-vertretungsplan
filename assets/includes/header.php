@@ -54,7 +54,7 @@
       }
 
       input[type="radio"]:checked + label {
-        background-color: <?=($color)?>; 
+        background-color: <?=($color)?> !important; 
       }
     </style>
 
