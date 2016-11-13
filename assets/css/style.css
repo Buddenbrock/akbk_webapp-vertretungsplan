@@ -158,6 +158,25 @@ label {
   margin-top: 20px;
 }
 
+/* Radio-Button */
+input[type="radio"]{
+  display:none;
+}
+  input[type="radio"] + label{
+    background: #999 url('../images/radio_off.jpg') center no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    margin-right: 15px;
+    position: relative;
+    transition: background .15s ease;
+    top: 22px;
+    width: 90px;
+  }
+    input[type="radio"]:checked + label{
+      background: #0080ff url('../images/radio_on.jpg') center no-repeat;
+    }
+
 button,
 select {
   cursor: pointer;
@@ -194,25 +213,6 @@ select {
       font-size: 20px !important;
       padding: 20px 5px !important;
     }
-
-    /* Radio-Button */
-    input[type="radio"]{
-      display:none;
-    }
-      input[type="radio"] + label{
-        background: #999 url('../images/radio_off.jpg') center no-repeat;
-        cursor: pointer;
-        display: inline-block;
-        height: 30px;
-        margin-right: 15px;
-        position: relative;
-        transition: background .15s ease;
-        top: 22px;
-        width: 90px;
-      }
-        input[type="radio"]:checked + label{
-          background: #0080ff url('../images/radio_on.jpg') center no-repeat;
-        }
 
 
 /* list */
