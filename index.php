@@ -12,7 +12,7 @@
   $class_id = $_COOKIE["show-class-id"];
   $class_name = $_COOKIE["show-class-name"];
   $color_id = $_COOKIE["color-id"];
-  if(($class_id == null) || ($class_name == null) || ($color_id == null)){
+  if(($class_id == null) || ($class_name == null)){
     header('Location: read-classes.php');
   }
   $class_id = str_pad($class_id, 5 ,'0', STR_PAD_LEFT);
