@@ -18,7 +18,10 @@
       <option value="<?=($i+1)?>"><?=($class_name[$i])?></option>
       <?php $i++; } ?>
     </select>
-
+    <button type="submit">Speichern</button>
+  </form>
+  <hr>
+  <form action="set-cookie.php">
     <label for="color_id">Bitte wähle deine Primärfarbe</label>
     <div class="col-50">
       <input type="radio" name="color-id" value="#9a9997" id="color_1" checked>
