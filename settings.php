@@ -20,20 +20,57 @@
     </select>
 
     <label for="color_id">Bitte wähle deine Primärfarbe</label>
-    <select name="color_id">
-      <option value="#9a9997" class="akbk_band" selected>grau</option>
-      <option value="#8b2738" class="hog_band">dunkelrot</option>
-      <option value="#dd0420" class="koe_band">rot</option>
-      <option value="#c7007f" class="ahr_band">magenta</option>
-      <option value="#996699" class="gol_band">hell-lila</option>
-      <option value="#5b2282" class="nmg_band">lila</option>
-      <option value="#006eb7" class="dmt_band">blau</option>
-      <option value="#10bae7" class="ftr_band">hellblau</option>
-      <option value="#00847d" class="fog_band">dunkelgrün</option>
-      <option value="#76b828" class="dbf_band">hellgrün</option>
-      <option value="#00a983" class="bgb_band">türkis</option>
-    </select>
-
+    <div class="col-50">
+      <input type="radio" name="color-id" value="#9a9997" id="color_1" checked>
+        <label for="color_1"></label>
+        <span class="akbk_band" >&nbsp;</span>
+        grau<br>
+      <input type="radio" name="color-id" value="#8b2738" id="color_2">
+        <label for="color_2"></label>
+        <span class="hog_band">&nbsp;</span>
+        dunkelrot<br>
+      <input type="radio" name="color-id" value="#dd0420" id="color_3">
+        <label for="color_3"></label>
+        <span class="koe_band">&nbsp;</span>
+        rot<br>
+      <input type="radio" name="color-id" value="#c7007f" id="color_4">
+        <label for="color_4"></label>
+        <span class="ahr_band">&nbsp;</span>
+        magenta<br>
+      <input type="radio" name="color-id" value="#996699" id="color_5">
+        <label for="color_5"></label>
+        <span class="gol_band">&nbsp;</span>
+        hell-lila<br>
+      <input type="radio" name="color-id" value="#5b2282" id="color_6">
+        <label for="color_6"></label>
+        <span class="nmg_band">&nbsp;</span>
+        lila<br>
+    </div>
+    <div class="col-50">
+      <input type="radio" name="color-id" value="#006eb7" id="color_7">
+        <label for="color_7"></label>
+        <span class="dmt_band">&nbsp;</span>
+        blau<br>
+      <input type="radio" name="color-id" value="#10bae7" id="color_8">
+        <label for="color_8"></label>
+        <span class="ftr_band">&nbsp;</span>
+        hell-blau<br>
+      <input type="radio" name="color-id" value="#00847d" id="color_9">
+        <label for="color_9"></label>
+        <span class="fog_band">&nbsp;</span>
+        dunkel-grün<br>
+      <input type="radio" name="color-id" value="#76b828" id="color_10">
+        <label for="color_10"></label>
+        <span class="dbf_band">&nbsp;</span>
+        hell-grün<br>
+      <input type="radio" name="color-id" value="#00a983" id="color_11">
+        <label for="color_11"></label>
+        <span class="bgb_band">&nbsp;</span>
+        türkise<br>
+    </div>
+    <button type="submit">Speichern</button>
+  </from>
+  <hr>
 
     <hr>
     <h2>Button-Konfiguration</h2>
