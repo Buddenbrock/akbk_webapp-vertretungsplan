@@ -1,5 +1,10 @@
 <?php
-  $color = $_COOKIE["color-id"];
+  if(isset($_COOKIE["color-id"])){
+    $color = $_COOKIE["color-id"];
+  }
+  else {
+    $color = "#9a9997";
+  }
 ?>
 <!doctype html>
 <html>
