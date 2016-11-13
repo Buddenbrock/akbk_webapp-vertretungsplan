@@ -76,13 +76,18 @@ main {
     margin: 110px auto 170px auto;
     width: 95%;
   }
+    .row {
+      clear: both;
+    }
+
     .col-50 {
       float: left;
       margin-bottom: 25px;
       width: 50%;
     }
-      .col-50:first-child {
+      .button-config .col-50 {
         margin-top: -40px;
+        margin-bottom: 65px;
       }
 
   footer {
@@ -180,6 +185,12 @@ input[type="radio"]{
     input[type="radio"]:checked + label {
       background: #0080ff url('../images/radio_on.png') center no-repeat;
     }
+
+  .button-config input[type="radio"] + label {
+    margin-top: 0;
+  }
+
+
 
 button,
 select {
@@ -343,12 +354,17 @@ table + font {
 
 @media screen and (max-width: 615px) {
   .col-50 {
-    margin-bottom: 30px;
+    margin-bottom: 0;
     width: 100%;
   }
-    .col-50:first-child{
-      margin-top: 0;
-      margin-bottom: 0;
+
+  .button-config .col-50 {
+    margin-bottom: 40px;
+  }
+
+
+    button {
+      margin-top: 30px !important;
     }
 }
 

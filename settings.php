@@ -78,6 +78,129 @@
     </div>
     <button type="submit">Speichern</button>
   </form>
+
+<hr>
+
+  <!-- Konfiguration der Button -->
+  <form class="button-config">
+    <div class="row">
+      <label for="button_1">Button 1</label>
+      <div class="col-50">
+        <input type="radio" name="button-1" value="1" id="button_1-1" checked>
+          <label for="button_1-1"></label>
+          Stundenplan<br>
+        <input type="radio" name="button-1" value="2" id="button_1-2">
+          <label for="button_1-2"></label>
+          Stundenzeit<br>
+        <input type="radio" name="button-1" value="3" id="button_1-3">
+          <label for="button_1-3"></label>
+          Hilfe<br>
+        <input type="radio" name="button-1" value="4" id="button_1-4">
+          <label for="button_1-4"></label>
+          Datenschutz<br>
+      </div>
+      <div class="col-50">
+        <input type="radio" name="button-1" value="5" id="button_1-5">
+          <label for="button_1-5"></label>
+          Impressum<br>
+        <input type="radio" name="button-1" value="6" id="button_1-6">
+          <label for="button_1-6"></label>
+          Neuladen<br>
+        <input type="radio" name="button-1" value="7" id="button_1-7">
+          <label for="button_1-7"></label>
+          Drucken<br>
+        </div>
+      </div>
+<br>
+      <div class="row">
+        <label for="button_2">Button 2</label>
+        <div class="col-50">
+          <input type="radio" name="button-2" value="1" id="button_2-1">
+            <label for="button_2-1"></label>
+            Stundenplan<br>
+          <input type="radio" name="button-2" value="2" id="button_2-2" checked>
+            <label for="button_2-2"></label>
+            Stundenzeit<br>
+          <input type="radio" name="button-2" value="3" id="button_2-3">
+            <label for="button_2-3"></label>
+            Hilfe<br>
+          <input type="radio" name="button-2" value="4" id="button_2-4">
+            <label for="button_2-4"></label>
+            Datenschutz<br>
+        </div>
+        <div class="col-50">
+          <input type="radio" name="button-2" value="5" id="button_2-5">
+            <label for="button_2-5"></label>
+            Impressum<br>
+          <input type="radio" name="button-2" value="6" id="button_2-6">
+            <label for="button_2-6"></label>
+            Neuladen<br>
+          <input type="radio" name="button-2" value="7" id="button_2-7">
+            <label for="button_2-7"></label>
+            Drucken<br>
+          </div>
+        </div>
+<br>
+        <div class="row">
+          <label for="button_3">Button 3</label>
+          <div class="col-50">
+            <input type="radio" name="button-3" value="1" id="button_3-1">
+              <label for="button_3-1"></label>
+              Stundenplan<br>
+            <input type="radio" name="button-3" value="2" id="button_3-2">
+              <label for="button_3-2"></label>
+              Stundenzeit<br>
+            <input type="radio" name="button-3" value="3" id="button_3-3">
+              <label for="button_3-3"></label>
+              Hilfe<br>
+            <input type="radio" name="button-3" value="4" id="button_3-4">
+              <label for="button_3-4"></label>
+              Datenschutz<br>
+          </div>
+          <div class="col-50">
+            <input type="radio" name="button-3" value="5" id="button_3-5">
+              <label for="button_3-5"></label>
+              Impressum<br>
+            <input type="radio" name="button-3" value="6" id="button_3-6" checked>
+              <label for="button_3-6"></label>
+              Neuladen<br>
+            <input type="radio" name="button-3" value="7" id="button_3-7">
+              <label for="button_3-7"></label>
+              Drucken<br>
+            </div>
+          </div>
+<br>
+          <div class="row">
+            <label for="button_1">Button 4</label>
+            <div class="col-50">
+              <input type="radio" name="button-4" value="1" id="button_4-1">
+                <label for="button_4-1"></label>
+                Stundenplan<br>
+              <input type="radio" name="button-4" value="2" id="button_4-2">
+                <label for="button_4-2"></label>
+                Stundenzeit<br>
+              <input type="radio" name="button-4" value="3" id="button_4-3">
+                <label for="button_4-3"></label>
+                Hilfe<br>
+              <input type="radio" name="button-4" value="4" id="button_4-4">
+                <label for="button_4-4"></label>
+                Datenschutz<br>
+            </div>
+            <div class="col-50">
+              <input type="radio" name="button-4" value="5" id="button_4-5">
+                <label for="button_4-5"></label>
+                Impressum<br>
+              <input type="radio" name="button-4" value="6" id="button_4-6">
+                <label for="button_4-6"></label>
+                Neuladen<br>
+              <input type="radio" name="button-4" value="7" id="button_4-7" checked>
+                <label for="button_4-7"></label>
+                Drucken<br>
+              </div>
+            </div>
+
+      <button type="submit">Speichern</button>
+    </form>
 </main>
 
 <?php
