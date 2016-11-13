@@ -75,31 +75,7 @@
         türkise<br>
     </div>
     <button type="submit">Speichern</button>
-  </from>
-  <hr>
-
-    <hr>
-    <h2>Button-Konfiguration</h2>
-
-    <label for="button_1">Button 1</label>
-    <input type="radio" name="button_1" value="1" checked> Stundenplan<br>
-    <input type="radio" name="button_1" value="2"> Stundenzeiten<br>
-
-    <select name="button_4">
-      <option value="1" selected>Stundenplan</option>
-      <option value="2">Stundenzeit</option>
-      <option value="3">Hilfe</option>
-      <option value="4">Datenschutz</option>
-      <option value="5">Impressum</option>
-      <option value="6">Drucken</option>
-      <option value="7">Neuladen</option>
-    </select>
-    <label for="button_2">Button 2</label>
-    <label for="button_3">Button 3</label>
-    <label for="button_4">Button 4</label>
-
-    <button type="submit"><?= $submit_text ?></button>
-  </from>
+  </form>
 </main>
 
 <?php
