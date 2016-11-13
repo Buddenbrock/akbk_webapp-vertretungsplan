@@ -1,4 +1,5 @@
 <?php
+  $timetable = false;
   $import_timetable_config = true;
 
   include_once('assets/includes/config.php');
@@ -18,13 +19,13 @@
     setcookie("show-class-name", $class_name, $save_time_short);
   }
 
-  if(isset($_REQUEST['color_id'])){
-    $color_id = $_REQUEST['color_id'];
+  if(isset($_REQUEST['color-id'])){
+    $color_id = $_REQUEST['color-id'];
 
     setcookie("color-id", $color_id, $save_time_long);
   }
 
-  if(isset($_REQUEST['button_1'] && $_REQUEST['button_2'] && $_REQUEST['button_3'] && $_REQUEST['button_4'])){
+  if(isset($_REQUEST['button_1']) && isset($_REQUEST['button_2']) && isset($_REQUEST['button_3']) && isset($_REQUEST['button_4'])){
     $button_1 = $_REQUEST['button_1'];
     $button_2 = $_REQUEST['button_2'];
     $button_3 = $_REQUEST['button_3'];
