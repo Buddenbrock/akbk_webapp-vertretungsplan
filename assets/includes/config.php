@@ -1,6 +1,6 @@
 <?php
 $year = date('Y');
-$version = "v1.9";
+$version = "1.9";
 
 // Class Configuration
   if($import_timetable_config) {
@@ -41,7 +41,7 @@ $version = "v1.9";
 
         $link_next = $link_next_data;
 
-        $hidden_pre =  $class_hidden;
+        $hidden_pre = $class_hidden;
       }
 
       if($next){
@@ -59,7 +59,7 @@ $version = "v1.9";
 
         $link_pre = $link_next_data;
 
-        $hidden_next =  $class_hidden;
+        $hidden_next = $class_hidden;
       }
 
     // week-date Configuration
