@@ -1,4 +1,5 @@
 <?php
+
   $import_timetable_config = false;
   $link_pre = "";
   $kw_pre = "";
@@ -28,6 +29,8 @@
   if($content_timetable == null){
     $content_timetable = "<p>F&uuml;r diese Zeit liegt kein Plan vor.<p>";
   }
+
+  header("Content-Type: text/html; charset=iso-8859-1");
 
 // Import des Seitenkopf
   include_once('assets/includes/header.php');
