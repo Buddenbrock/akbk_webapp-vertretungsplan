@@ -271,6 +271,11 @@ a {
   text-decoration: none;
 }
 
+p.infobox {
+    background-color: #006eb7;
+    color: #fff;
+    margin-bottom: 25px;
+}
 
 /* else */
 font[color='#0000FF'],

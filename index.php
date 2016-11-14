@@ -34,6 +34,11 @@
 ?>
 
 <main>
+  <p class="infobox">
+    <strong>Early Access</strong><br>
+    Aktuell wird an dieser Web-Applikation und Schnittstelle zum AKBK Infopoint noch entwickelt und gearbeitet. Bis auf kleine Einschränkungen ist die Nutzung aber schon voll möglich.
+  </p>
+
   <h1>Stundenplan der KW <?=( $kw_now . " (" . $date . ")" )?></h1>
   <p>
     <strong>Klassenbezeichnung: <?=( $class_name )?></strong><br>
