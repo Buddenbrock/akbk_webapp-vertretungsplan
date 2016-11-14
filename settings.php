@@ -20,7 +20,7 @@
       <option value="<?=($i+1)?>"><?=($class_name[$i])?></option>
       <?php $i++; } ?>
     </select>
-    <button type="submit">Speichern</button>
+    <input type="submit" value="Speichern">
   </form>
 
 <hr>
@@ -76,7 +76,7 @@
         <span class="bgb_band">&nbsp;</span>
         türkise<br>
     </div>
-    <button type="submit">Speichern</button>
+    <input type="submit" value="Speichern">
   </form>
 
 <hr>

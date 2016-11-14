@@ -43,7 +43,8 @@
       header a {
         color: <?=($color)?>;
       }
-      button {
+      button,
+      input[type="submit"] {
         background-color: <?=($color)?>;
       }
       hr {
@@ -54,7 +55,7 @@
       }
 
       input[type="radio"]:checked + label {
-        background-color: <?=($color)?> !important; 
+        background-color: <?=($color)?> !important;
       }
     </style>
 
