@@ -30,7 +30,7 @@
     $content_timetable = "<p>F&uuml;r diese Zeit liegt kein Plan vor.<p>";
   }
 
-  header("Content-Type: text/html; charset=iso-8859-1");
+  header('Content-Type: text/html; charset=ISO-8859-1');
 
 // Import des Seitenkopf
   include_once('assets/includes/header.php');
@@ -39,7 +39,7 @@
 <main>
   <p class="infobox">
     <strong>Early Access</strong><br>
-    Aktuell wird an dieser Web-Applikation und Schnittstelle zum AKBK Infopoint noch entwickelt und gearbeitet. Bis auf kleine Einschränkungen ist die Nutzung aber schon voll möglich.
+    Aktuell wird an dieser Web-Applikation und Schnittstelle zum AKBK Infopoint noch entwickelt und gearbeitet. Bis auf kleine Einschr&auml;nkungen ist die Nutzung aber schon voll m&ouml;glich.
   </p>
 
   <h1>Stundenplan der KW <?=( $kw_now . " (" . $date . ")" )?></h1>
