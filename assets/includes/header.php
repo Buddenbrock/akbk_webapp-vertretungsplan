@@ -44,7 +44,9 @@
         color: <?=($color)?>;
       }
       button,
-      input[type="submit"] {
+      input[type="submit"],
+      p.infobox,
+      a.button-link {
         background-color: <?=($color)?>;
       }
       hr {
@@ -55,7 +57,7 @@
       }
 
       input[type="radio"]:checked + label {
-        background-color: <?=($color)?> !important;
+        //background-color: <?=($color)?> !important;
       }
     </style>
 
