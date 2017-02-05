@@ -62,6 +62,19 @@ $version = "1.9";
         $hidden_next = $class_hidden;
       }
 
+      // generate 0 infront by numbers between 0 and 10
+  	  if($kw_pre < 10){
+  		$kw_pre = str_pad($kw_pre, 2 ,'0', STR_PAD_LEFT);
+  	  }
+
+  	  if($kw_now < 10){
+  		$kw_now = str_pad($kw_now, 2 ,'0', STR_PAD_LEFT);
+  	  }
+
+  	  if($kw_next < 10){
+  		$kw_next = str_pad($kw_next, 2 ,'0', STR_PAD_LEFT);
+  	  }
+
     // week-date Configuration
       $timestamp_monday = strtotime("{$year}-W{$kw_now}");
       $timestamp_friday = strtotime("{$year}-W{$kw_now}-5");
