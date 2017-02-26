@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
   $import_timetable_config = false;
   $link_pre = "";
@@ -39,7 +39,8 @@
 <main>
   <p class="infobox">
     <strong>Early Access</strong><br>
-    Aktuell wird an dieser Web-Applikation und Schnittstelle zum AKBK Infopoint noch entwickelt und gearbeitet. Bis auf kleine Einschr&auml;nkungen ist die Nutzung aber schon voll m&ouml;glich.
+    Die Entwicklung dieser Web-Applikation und Schnittstelle zum AKBK Infopoint wurde eingestellt.
+    Bis <b>Sommer 2018</b> wird die Web-App mit ihren bisherigen Funktionen online zur Verf&uuml;gung stehen.
   </p>
 
   <h1>Stundenplan der KW <?=( $kw_now . " (" . $date . ")" )?></h1>
